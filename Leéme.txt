@@ -1,0 +1,40 @@
+
+## Cómo Usar
+1. **Extraer el ZIP**: Descomprime `marketplus-template.zip` en una carpeta.
+2. **Mantén index.html intacto**: El `index.html` original ya vincula Tailwind CSS y Font Awesome via CDN.
+3. **Previsualizar**: Abre `index.html` en un navegador moderno con conexión a internet.
+4. **Probar Funcionalidades**:
+   - Menú móvil, slider, modal y carrito están manejados por el `<script>` interno.
+   - `js/scripts.js` mejora el menú móvil (ícono toggle y cierre externo) y actualiza el contador del carrito.
+
+## Mejoras Opcionales
+- **Imágenes Personalizadas**: Reemplaza las URLs de `via.placeholder.com` con `assets/images/placeholder.png` manualmente, por ejemplo:
+  ```html
+  <img src="assets/images/placeholder.png" alt="Producto" class="w-full h-48 object-cover">
+
+
+Favicon: Añade al <head>:
+
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+
+CDNs Locales: Para usar sin internet:
+Descarga Tailwind CSS: https://tailwindcss.com/docs/installation
+Descarga Font Awesome: https://fontawesome.com/docs/web/setup/host-yourself
+Reemplaza los enlaces CDN con rutas locales.
+Notas
+Sin Cambios en HTML: Los archivos funcionan con el index.html original.
+Menú Móvil: Usa js/scripts.js para mejorar el toggle y cerrar al hacer clic fuera.
+Personalización: Agrega estilos en css/styles.css o scripts en js/scripts.js.
+Requisitos
+Navegador moderno (Chrome, Firefox, Safari).
+Conexión a internet para CDNs.
+Licencia
+Licenciada para uso personal y comercial. No revendas ni redistribuyas sin permiso.
+
+Soporte
+Contacta a tareasumxweb@pm.me para preguntas o personalización.
+
+¡Feliz codificación!
+
+Tareas Universitarias MX

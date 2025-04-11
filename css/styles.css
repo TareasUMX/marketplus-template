@@ -1,0 +1,65 @@
+/* MarketPlus Custom Styles */
+
+/* Replicate internal styles */
+body {
+    font-family: 'Inter', 'Open Sans', sans-serif;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.image-zoom {
+    transition: transform 0.5s ease;
+}
+
+.image-zoom:hover {
+    transform: scale(1.05);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cart-badge {
+    top: -8px;
+    right: -8px;
+    font-size: 10px;
+}
+
+.hero-slide {
+    transition: opacity 1s ease-in-out;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 10;
+}
+
+.inactive-slide {
+    opacity: 0;
+    z-index: 1;
+}
+
+.rating-star:hover ~ .rating-star {
+    color: #e2e8f0;
+}
+
+/* Additional enhancements */
+@media (max-width: 767px) {
+    /* Improve mobile menu visibility */
+    #mobile-menu.active {
+        display: block;
+    }
+
+    /* Adjust search bar for mobile */
+    .md\:hidden .relative input {
+        width: 100%;
+    }
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}
